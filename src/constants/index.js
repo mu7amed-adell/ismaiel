@@ -28,6 +28,24 @@ const words = [
   { text: "Code", imgPath: "/images/code.svg" },
 ];
 
+const prevProjects = [
+  {
+    text: "On-Demand Rides Made Simple with a Powerful, user-Friendly App called Ryde", 
+    imgPath: "/images/project1.png",
+    parag: "Ryde is a cutting-edge mobile application designed to revolutionize the way people experience on-demand rides."  
+  },
+  {
+    text: "Hostinger", 
+    imgPath: "/images/project2.png",
+    parag: " "
+  },
+  {
+    text: "Docker",
+    imgPath: "/images/project3.png",
+    parag: " "
+  }
+]
+
 const counterItems = [
   { value: 15, suffix: "+", label: "Years of Experience" },
   { value: 200, suffix: "+", label: "Satisfied Clients" },
@@ -275,4 +293,5 @@ export {
   techStackIcons,
   techStackImgs,
   navLinks,
+  prevProjects,
 };

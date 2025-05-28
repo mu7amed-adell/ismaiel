@@ -9,6 +9,7 @@ Title: Gaming Setup
 
 import React from 'react'
 import { useGLTF } from '@react-three/drei'
+import * as THREE from 'three'
 
 export function Gaming(props) {
   const { nodes, materials } = useGLTF('/models/gaming_setup.glb')
