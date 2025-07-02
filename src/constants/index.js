@@ -30,27 +30,27 @@ const words = [
 
 const prevProjects = [
   {
-    text: "On-Demand Rides Made Simple with a Powerful, user-Friendly App called Ryde", 
+    text: "Facial Expression Recognition Challenge",
     imgPath: "/images/project1.png",
-    parag: "Ryde is a cutting-edge mobile application designed to revolutionize the way people experience on-demand rides."  
+    parag: "Developed an advanced computer vision model that improved FER accuracy from 72.3% to 83%, winning international recognition.",
   },
   {
-    text: "Hostinger", 
+    text: "Cloud-based Travel Booking Platform",
     imgPath: "/images/project2.png",
-    parag: " "
+    parag: "Built a scalable full-stack travel agency app using Node.js, Express, MongoDB, and Azure cloud infrastructure with VPC integration.",
   },
   {
-    text: "Docker",
+    text: "YC Directory – Startup Platform",
     imgPath: "/images/project3.png",
-    parag: " "
+    parag: "Created a modern React + Next.js 15 platform with TypeScript, Sanity CMS, and NextAuth for secure and dynamic startup listings.",
   }
-]
+];
 
 const counterItems = [
-  { value: 15, suffix: "+", label: "Years of Experience" },
-  { value: 200, suffix: "+", label: "Satisfied Clients" },
-  { value: 108, suffix: "+", label: "Completed Projects" },
-  { value: 90, suffix: "%", label: "Client Retention Rate" },
+  { value: 3, suffix: "+", label: "Years in AI & Data" },
+  { value: 10, suffix: "+", label: "Projects Delivered" },
+  { value: 5, suffix: "+", label: "Technologies Used" },
+  { value: 60, suffix: "%", label: "Documentation Time Saved" },
 ];
 
 const logoIconsList = [
@@ -92,18 +92,18 @@ const logoIconsList = [
 const abilities = [
   {
     imgPath: "/images/seo.png",
-    title: "Quality Focus",
-    desc: "Delivering high-quality results while maintaining attention to every detail.",
+    title: "Creative Problem Solving",
+    desc: "Approaches challenges with experimentation, research, and out-of-the-box thinking.",
   },
   {
     imgPath: "/images/chat.png",
-    title: "Reliable Communication",
-    desc: "Keeping you updated at every step to ensure transparency and clarity.",
+    title: "Clear Communication",
+    desc: "Conveys technical ideas effectively and collaborates across teams.",
   },
   {
     imgPath: "/images/time.png",
-    title: "On-Time Delivery",
-    desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+    title: "Adaptability",
+    desc: "Learns and applies new technologies rapidly to deliver working solutions.",
   },
 ];
 
@@ -165,39 +165,38 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+    review: "Mohammed's AI solution greatly improved the speed and accuracy of our healthcare transcription process.",
     imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
+    title: "AI Developer – Healthcare Transcription",
+    date: "May 2025 – Present",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      "Designed web app using React.js + Flask for real-time medical transcription.",
+      "Built LLM agent to extract insights and automate clinical report generation.",
+      "Targeted 95% accuracy and 60% reduction in documentation time.",
     ],
   },
   {
-    review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+    review: "Mohammed streamlined our financial data pipelines, enabling faster analytics and better reporting.",
     imgPath: "/images/exp2.png",
     logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    title: "AI Engineer – Data Management Systems",
+    date: "July 2023 – Jan 2024",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Created ETL pipelines with Apache NiFi to unify complex financial datasets.",
+      "Built real-time analytics dashboards to reduce reporting delays by 40%.",
+      "Integrated Metabase and RAG systems to improve analytics performance.",
     ],
   },
   {
-    review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
+    review: "Mohammed balanced military service with ongoing technical growth, showing dedication and resilience.",
     imgPath: "/images/exp3.png",
     logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
+    title: "Republican Guard – Service Desk Soldier",
+    date: "Jan 2024 – Mar 2025",
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Provided IT and operational support during mandatory military service.",
+      "Maintained service readiness while continuing AI research and development.",
     ],
   },
 ];
