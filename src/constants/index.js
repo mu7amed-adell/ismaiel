@@ -18,13 +18,13 @@ const navLinks = [
 ];
 
 const words = [
+  { text: "Agents", imgPath: "/images/designs.svg" },
+  { text: "Workflows", imgPath: "/images/concepts.svg" },
   { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
-  { text: "Designs", imgPath: "/images/designs.svg" },
   { text: "Code", imgPath: "/images/code.svg" },
+  { text: "Agents", imgPath: "/images/designs.svg" },
+  { text: "Workflows", imgPath: "/images/concepts.svg" },
   { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
-  { text: "Designs", imgPath: "/images/designs.svg" },
   { text: "Code", imgPath: "/images/code.svg" },
 ];
 
@@ -48,8 +48,8 @@ const prevProjects = [
 
 const counterItems = [
   { value: 3, suffix: "+", label: "Years in AI & Data" },
-  { value: 10, suffix: "+", label: "Projects Delivered" },
-  { value: 5, suffix: "+", label: "Technologies Used" },
+  { value: 30, suffix: "+", label: "Projects Delivered" },
+  { value: 23, suffix: "+", label: "Satisfied Client" },
   { value: 60, suffix: "%", label: "Documentation Time Saved" },
 ];
 
