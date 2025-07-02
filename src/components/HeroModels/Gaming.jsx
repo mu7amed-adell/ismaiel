@@ -12,7 +12,7 @@ import { useGLTF } from '@react-three/drei'
 import * as THREE from 'three'
 
 export function Gaming(props) {
-  const { nodes, materials } = useGLTF('/models/gaming_setup.glb')
+  const { nodes, materials } = useGLTF('/models/gaming_setup-transformed.glb')
   return (
     <group {...props} dispose={null}>
       <group scale={0.01}>
