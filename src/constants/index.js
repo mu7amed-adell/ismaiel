@@ -31,13 +31,13 @@ const words = [
 const prevProjects = [
   {
     text: "Facial Expression Recognition Challenge",
-    imgPath: "/images/project1.png",
+    imgPath: "/images/FER2013.png",
     parag: "Developed an advanced computer vision model that improved FER accuracy from 72.3% to 83%, winning international recognition.",
   },
   {
-    text: "Cloud-based Travel Booking Platform",
-    imgPath: "/images/project2.png",
-    parag: "Built a scalable full-stack travel agency app using Node.js, Express, MongoDB, and Azure cloud infrastructure with VPC integration.",
+  text: "Voiceflow — Doctor-Patient Consultation Platform",
+  imgPath: "/images/voiceflow.png",
+  parag: "Designing and building a cloud-based SaaS platform to securely record, manage, and review doctor-patient consultations. Developed using Node.js, Express, MongoDB, and deployed on Azure with VPC integration. Currently enhancing features and infrastructure as the platform evolves toward production-readiness.",
   },
   {
     text: "YC Directory – Startup Platform",
@@ -166,8 +166,8 @@ const techStackIcons = [
 const expCards = [
   {
     review: "Mohammed's AI solution greatly improved the speed and accuracy of our healthcare transcription process.",
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
+    imgPath: "/images/dms-wide.png",
+    logoPath: "/images/dms.png",
     title: "AI Developer – Healthcare Transcription",
     date: "May 2025 – Present",
     responsibilities: [
@@ -178,8 +178,8 @@ const expCards = [
   },
   {
     review: "Mohammed streamlined our financial data pipelines, enabling faster analytics and better reporting.",
-    imgPath: "/images/exp2.png",
-    logoPath: "/images/logo2.png",
+    imgPath: "/images/dms-wide.png",
+    logoPath: "/images/dms.png",
     title: "AI Engineer – Data Management Systems",
     date: "July 2023 – Jan 2024",
     responsibilities: [
@@ -190,8 +190,8 @@ const expCards = [
   },
   {
     review: "Mohammed balanced military service with ongoing technical growth, showing dedication and resilience.",
-    imgPath: "/images/exp3.png",
-    logoPath: "/images/logo3.png",
+    imgPath: "/images/ea.png",
+    logoPath: "/images/rg.png",
     title: "Republican Guard – Service Desk Soldier",
     date: "Jan 2024 – Mar 2025",
     responsibilities: [
